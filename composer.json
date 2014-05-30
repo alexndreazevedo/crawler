@@ -1,0 +1,30 @@
+{
+    "name": "alexndreazevedo/crawler",
+    "description": "Social PHP Crawler",
+    "keywords": ["alexndreazevedo", "crawler"],
+    "type": "library",
+    "homepage": "https://github.com/alexndreazevedo/crawler",
+    "license": "Apache2",
+    "authors": [
+        {
+            "name": "Alexandre Azevedo",
+            "homepage": "https://github.com/alexndreazevedo/crawler/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "facebook/php-sdk": "@dev",
+        "ricardoper/twitteroauth": "@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "classmap": ["src"],
+        "psr-0": {"": "src/"}
+    },
+    "prefer-stable": false,
+    "minimum-stability": "dev"
+}
